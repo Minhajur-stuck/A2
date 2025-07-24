@@ -1,3 +1,11 @@
+/* common css */
+.noto-serif{
+  font-family: "Noto Serif", serif;
+}
+.inter{
+  font-family:"Inter", sans-serif;;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -5,4 +13,115 @@
 }
 hmtl,width{
   width: 100%;
+}
+header{
+  width: 100%;
+}
+nav{
+  width: 80%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+nav ul{
+  display: flex;
+  gap: 48px;
+}
+nav ul li{
+  list-style: none;
+  font-size: 1rem;
+}
+nav li a{
+  text-decoration: none;
+  color:black;
+}
+li div{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.banner{
+   width: 80%;
+   height: 470px;
+   margin: 50px auto;
+   display: flex;
+   align-items: end;
+}
+.hero-text{
+  width: 50%;
+  height: 299px;
+}
+.hero-text h1{
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+.hero-text p{
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.hero-text span{
+  color: #E95A08;
+}
+.hero-img{
+  width: 50%;
+  height: 355px;
+}
+.hero-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+  nav{
+    width: 100%;
+    height: 60px;
+    padding: 0px 16px;
+  }
+  nav ul{
+  display: flex;
+  gap: 0;
+}
+  nav a{
+    display: none;
+  }
+  .logo-img{
+    width: 83px;
+    height: 60px;
+  }
+  .cart-img{
+    height: 24px;
+  }
+  .banner{
+    width: 100%;
+    padding: 0px 16px;
+  }
+}
+@media (min-width:576px) and (max-width:992px) {
+  nav{
+    width: 90%;
+    height: 80px;
+    padding: 0px 16px;
+  }
+  nav ul{
+  display: flex;
+  gap: 0;
+}
+  nav a{
+    display: none;
+  }
+  .banner{
+    width: 90%;
+    padding: 0px 16px;
+  }
+  
 }
