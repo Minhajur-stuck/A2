@@ -36,7 +36,7 @@
   padding: 0;
   box-sizing:border-box;
 }
-hmtl,width{
+html,width{
   width: 100%;
 }
 header{
@@ -62,7 +62,7 @@ nav li a{
   text-decoration: none;
   color:black;
 }
-li div{
+ nav li div{
   display: flex;
   gap: 10px;
   align-items: center;
@@ -131,10 +131,53 @@ li div{
 .cart img{
   width: 100%;
 }
+ul {
+  list-style-type: disc; /* অথবা square, circle, etc. */
+  padding-left: 20px; /* space so bullet দেখা যায় */
+}
 
+/* second section */
+.second-section{
+  width: 100%;
+  position: relative;
+  margin-top: 200px;
 
-
-
+}
+.child{
+  width: 80%;
+  height: 590px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.store-img{
+  width: 50%;
+  height: 100%;
+}
+.badge-img{
+  position: absolute;
+  width: 280px;
+  left: 35%;
+  top: -20%;
+}
+.text-child{
+  width: 45%;
+  height: 100%;
+}
+.inner-child{
+  width: 100%;
+  margin: 80px auto;
+}
+.inner-child h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.inner-child ul li{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
 
 @media (max-width:576px) {
   nav{
@@ -178,6 +221,9 @@ li div{
   .hero-text p{
     font-size: 20px;
   }
+   .cart-section{
+  margin-top: -20px;
+ }
   .cart-text h1{
   font-size: 2.4rem;
  }
@@ -249,6 +295,7 @@ li div{
   font-size: 1rem;
   padding: 0px 20px;
  }
+
 .add-to-cart-div{
   width: 100%;
   margin-top:50px;
