@@ -504,6 +504,27 @@ footer{
 .fourth-section-child{
   margin: 0px 10px;
 }
+footer{
+  width: 100%;
+  height: auto; 
+}
+.footer-child{
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  margin: 50px auto;
+}
+.logo-div{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.link-div ul{
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+}
 
 
 }
