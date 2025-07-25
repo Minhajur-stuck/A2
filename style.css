@@ -444,6 +444,26 @@ ul {
   font-size: 13px;
 }
 
+.fourth-section h1{
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom:23px;
+}
+.input-div{
+  width: 100%;
+  display: flex;
+}
+.input-div input{
+  font-size: 1rem;
+  width: 80%;
+
+}
+.input-div button{
+  font-size: 0.8rem;
+}
+.fourth-section-child{
+  margin: 0px 10px;
+}
 
 }
 @media (min-width:576px) and (max-width:992px) {
@@ -586,7 +606,14 @@ ul {
 .zabo-plants a{
   font-size: 13px;
 }
-
+.fourth-section h1{
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom:23px;
+}
+.fourth-section-child{
+  width: 80%;
+}
 
 }
 
