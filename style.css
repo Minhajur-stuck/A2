@@ -16,6 +16,9 @@
   font-size: 22px;
   margin-bottom: 5px;
 }
+.link-color{
+  color: #8987A1;
+}
 
 .cart-btn{
   width: 100%;
@@ -70,7 +73,7 @@ nav li a{
 .banner{
    width: 80%;
    height: 470px;
-   margin: 50px auto;
+   margin: 47px auto;
    display: flex;
    align-items: end;
 }
@@ -292,6 +295,7 @@ ul {
   font-size: 1rem;
   cursor: pointer;
   color: white;
+  font-weight: bold;
 }
 footer{
   width: 100%;
@@ -362,7 +366,7 @@ footer{
   }
   .hero-img{
   width: 100%;
-  height: 250px;
+  height: auto;
   }
   .hero-text{
     width: 100%;
@@ -499,7 +503,9 @@ footer{
 
 }
 .input-div button{
+  width: 30%;
   font-size: 0.8rem;
+  padding: 0px 0px;
 }
 .fourth-section-child{
   margin: 0px 10px;
@@ -566,6 +572,9 @@ footer{
     height: 300px;
     object-fit: cover;
   }
+  .cart-section{
+    width: 90%;
+  }
   .cart-text h1{
   font-size: 2.4rem;
  }
@@ -592,16 +601,17 @@ footer{
   margin-bottom: 5px;
 }
 .second-section{
+  width: 90%;
   margin-top: 20px;
+  margin: auto;
 }
 .badge-img{
   display: none;
 }
 .child{
-  width: 90%;
+  width: 95%;
   height: 350px;
   margin: auto;
-  border: 1px solid;
 }
 
 .store-img{
@@ -675,6 +685,88 @@ footer{
 }
 .fourth-section-child{
   width: 80%;
+}
+.fourth-section h1{
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom:23px;
+}
+.input-div{
+  width: 100%;
+  display: flex;
+}
+.input-div input{
+  font-size: 1rem;
+  width: 80%;
+
+}
+.input-div button{
+  width: 30%;
+  font-size: 0.8rem;
+  padding: 0px 0px;
+}
+.fourth-section-child{
+  margin: 0px 10px;
+}
+.footer-child{
+  width: 90%;
+}
+}
+@media (min-width:992px) and (max-width:1200px) {
+  nav{
+    width: 90%;
+  }
+  .banner{
+   width: 90%;
+   height: auto;
+   margin: 100px auto;
+}
+.hero-text{
+  height: auto;
+}
+.hero-text h1{
+  font-size: 3rem;
+}
+
+
+
+/* cart section */
+.cart-section{
+  width: 90%;
+  height: auto;
+}
+
+.cart-text h1{
+  font-size: 3.3rem;
+}
+.cart-text p{
+  font-size: 1.3rem;
+  padding: 0px 120px;
+}
+.add-to-cart-div{
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* second section */
+.second-section{
+  width: 90%;
+  position: relative;
+  margin:200px auto;
+}
+.child{
+  width: 100%;
+  height: 590px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-section{
+  width: 100%;
+}
+.third-sec-child{
+  width: 90%;
 }
 
 }
